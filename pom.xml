@@ -495,12 +495,10 @@
             </reporting>
         </profile>
     </profiles>
-<distributionManagement>
 <repositories>
     <repository>
       <id>gameoflife</id>
       <url>http://localhost:8081/repository/gameoflife/</url>
     </repository>
   </repositories>
-</distributionManagement>
 </project>
