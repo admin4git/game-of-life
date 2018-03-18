@@ -495,10 +495,10 @@
             </reporting>
         </profile>
     </profiles>
-<repositories>
-    <repository>
-      <id>gameoflife</id>
-      <url>http://localhost:8081/repository/gameoflife/</url>
-    </repository>
-  </repositories>
+<distributionManagement>
+  <repository>
+    <id>releases</id>
+    <url>http://localhost:8081/nexus/content/repositories/releases</url>
+  </repository>
+</distributionManagement>
 </project>
